@@ -83,6 +83,17 @@
             }
           },
           "to": [{ "key_code": "o" }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": ["fn"],
+              "optional": ["any"]
+            }
+          },
+          "to": [{ "key_code": "d" }]
         }
       ]
     }
